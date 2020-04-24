@@ -1,6 +1,18 @@
 # TrashITBackEnd #
+
+## TECHNOLGIES ##
+
+#### ASP.NET Core ####
+
+#### C# ####
+
+#### Azure ####
+
+#### SQLServer ####
+
+## CLASSES  ##
  
-## Basket ##
+#### Basket ####
 
 Basket is the class that deals with managing the SmartBins with which TrashIT application can interact.
 This class has three different attributes:
@@ -9,7 +21,7 @@ This class has three different attributes:
 2) Location: it is the place where the SmartBin is located.
 3) MacAddress: it is the SmartBin's MAC and it is used to associate the smartphone to the SmartBin.
 
-## ObjectToTrash ##
+#### ObjectToTrash ####
 
 ObjectToTrash is the class that contains data about different objects that people wish recycle.
 Like the previous class it has three attributes:
