@@ -1,6 +1,6 @@
 # TrashITBackEnd #
 
-## TECHNOLGIES 
+## TECHNOLOGIES 
 
 #### ASP.NET Core ####
 
