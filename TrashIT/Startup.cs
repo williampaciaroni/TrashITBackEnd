@@ -20,7 +20,7 @@ namespace TrashIT
         public void ConfigureServices(IServiceCollection services)
         {
             //Riga di connessione per Mac, commentare questa riga e aggiungere riga di connessione per windows
-            var connectionString = "Server=tcp:trashit.database.windows.net,1433;Initial Catalog=trashitdatabase;Persist Security Info=False;User ID=trashadmin;Password=Trashit00@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            var connectionString = Configuration["ConnectionString"];
             services.AddDbContext<Context.TrashITContext>
                 (options => options.UseSqlServer(connectionString));
 

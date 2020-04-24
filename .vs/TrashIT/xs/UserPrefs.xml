@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{1305CA4C-B57D-45E8-971A-27DACED81250}|Default">
   <MonoDevelop.Ide.ItemProperties.TrashIT PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TrashIT/Controllers/ObjectController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrashIT/appsettings.json">
     <Files>
       <File FileName="TrashIT/Context/TrashITContext.cs" Line="1" Column="1" />
-      <File FileName="TrashIT/Controllers/BasketController.cs" Line="1" Column="1" />
-      <File FileName="TrashIT/Controllers/ObjectController.cs" Line="51" Column="43" />
+      <File FileName="TrashIT/Controllers/BasketController.cs" Line="53" Column="44" />
+      <File FileName="TrashIT/Controllers/ObjectController.cs" Line="43" Column="33" />
+      <File FileName="TrashIT/appsettings.json" Line="8" Column="24" />
+      <File FileName="TrashIT/Startup.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,13 +15,12 @@
             <Node name="TrashIT" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Context" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="ObjectController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="Requests" expanded="True" />
               </Node>
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
