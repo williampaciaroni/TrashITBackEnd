@@ -42,7 +42,7 @@ namespace TrashIT.Controllers
                     trashITContext.SaveChanges();
                     return Ok();
                 }
-                catch(Exception e)
+                catch(Exception)
                 {
                     return StatusCode(500, "There is something wrong with creating the smart bin in the DB.");
                 }
